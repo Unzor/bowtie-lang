@@ -12,3 +12,7 @@ Run JavaScript Code
 ```
 <eval_js> `console.log("Hello World!")`
 ```
+Write File 
+```
+<writeFile> ["written.txt", "Hello World!"]
+```
