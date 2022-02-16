@@ -1,5 +1,6 @@
 # bowtie-lang
 A programming language written in JavaScript that also lets you write in JavaScript.
+File extension is ".bow".
 
 # Example
 Hello World + Math Example
