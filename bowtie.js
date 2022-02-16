@@ -43,7 +43,7 @@ function split_than_signs(str) {
     return a3;
 }
 
-var file = fs.readFileSync("test.chm").toString();
+var file = fs.readFileSync(process.argv[2]).toString();
 
 file.split("\n").forEach(function(file) {
     var split = split_than_signs(file).slice(1, split_than_signs(file).length);
