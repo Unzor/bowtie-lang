@@ -2,7 +2,7 @@
 A programming language written in JavaScript that also lets you write in JavaScript.
 File extension is ".bow".
 
-# Example
+# Examples
 Hello World + Math Example
 ```
 <VAR> hello_world = function(){console.log("Hello World!")};
