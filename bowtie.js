@@ -1,3 +1,4 @@
+if (process.argv[2]) {
 const fs = require("fs");
 
 var funcs = {
@@ -74,3 +75,6 @@ file.split("\n").forEach(function(file) {
         funcs[fn](args[i]);
     })
 })
+} else {
+	console.log("Bowtie - ERROR: no file to interpret!")
+}
